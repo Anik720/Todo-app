@@ -1,0 +1,43 @@
+/* Modal.module.css */
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modalContent input,
+  .modalContent textarea {
+    margin-bottom: 10px;
+    padding: 20px 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modalContent button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .modalContent button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  

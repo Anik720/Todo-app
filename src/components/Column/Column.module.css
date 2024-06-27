@@ -1,0 +1,50 @@
+/* styles/Column.module.css */
+
+.column {
+    background-color: #c7a1a1;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    min-height: 70vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column h2 {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+    padding: 10px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 10px 0;
+  }
+  
+  .addButton {
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .column {
+      width: 90%;
+    }
+  }
+  

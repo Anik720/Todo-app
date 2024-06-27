@@ -1,0 +1,18 @@
+/* styles/KanbanBoard.module.css */
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(236, 217, 217);
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 768px) {
+    .board {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
